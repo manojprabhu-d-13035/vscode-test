@@ -65,7 +65,10 @@ app.setPath('userData', userDataPath);
 
 // Resolve code cache path
 const codeCachePath = getCodeCachePath();
+let isTest = true;
 
+fuction isTesting() {
+	return isTest;
 // Disable default menu (https://github.com/electron/electron/issues/35512)
 Menu.setApplicationMenu(null);
 
